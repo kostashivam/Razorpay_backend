@@ -6,17 +6,16 @@ const VirtualAccount = new mongoose.Schema(
       type: String,
       required: true
     },
-    // account_id: {
-    //   type: String,
-    // },
     customer_id: {
       type: String,
     },
     customer_name: {
       type: String,
+      required: false
     },
     description: {
       type: String,
+      require: false
     },
     isDeleted: {
       type: String,
